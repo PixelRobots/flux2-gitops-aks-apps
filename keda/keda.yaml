@@ -21,6 +21,6 @@ spec:
   values:
     Image:
       keda:
-        repository: $CONTAINER_REGISTRY_ENDPOINT/library/keda
+        repository: acrpixelnetestest.azurecr.io/library/keda
       metricsApiServer:
-        repository: $CONTAINER_REGISTRY_ENDPOINT/library/keda-metrics-apiserver
+        repository: acrpixelnetestest.azurecr.io/library/keda-metrics-apiserver
